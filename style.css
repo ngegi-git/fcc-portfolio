@@ -79,6 +79,7 @@ section {
 @media (max-width: 576px) {
   .jumbotron {
     padding-top: 8rem;
+    height: 90vh;
   }
   .navbar {
     background-color: white !important;
