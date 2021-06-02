@@ -74,15 +74,7 @@ section {
   background-color: #ff916a;
 }
 
-/* Media Query ketika dibuka di handphone */
-@media (max-width: 768px) {
-  .jumbotron {
-    padding-top: 8rem;
-  }
-  .navbar {
-    background-color: white !important;
-  }
-}
+/* Media Query ketika dibuka di mobile */
 
 @media (max-width: 576px) {
   .jumbotron {
