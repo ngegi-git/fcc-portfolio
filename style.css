@@ -75,7 +75,7 @@ section {
 }
 
 /* Media Query ketika dibuka di handphone */
-@media (max-width: 576px) {
+@media (max-width: 600px) {
   .jumbotron {
     padding-top: 8rem;
   }
