@@ -76,6 +76,9 @@ section {
 
 /* Media Query ketika dibuka di handphone */
 @media (max-width: 576px) {
+  .jumbotron {
+    padding-top: 8rem;
+  }
   .navbar {
     background-color: white !important;
   }
