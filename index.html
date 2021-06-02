@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio Page</title>
+  </head>
+  <body id="home">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm fixed-top" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="https://ngegi-git.github.io/fcc-portfolio/" target="_blank" id="profile-link"> Personal Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">My Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="jumbotron text-center" id="welcome-section">
+      <img src="image/1.png" alt="Me" width="200" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4 pt-2">Username</h1>
+      <p class="lead"> Portfolio Page</p>
+      <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,192L18.5,208C36.9,224,74,256,111,224C147.7,192,185,96,222,80C258.5,64,295,128,332,128C369.2,128,406,64,443,74.7C480,85,517,171,554,181.3C590.8,192,628,128,665,138.7C701.5,149,738,235,775,224C812.3,213,849,107,886,80C923.1,53,960,107,997,133.3C1033.8,160,1071,160,1108,181.3C1144.6,203,1182,245,1218,272C1255.4,299,1292,309,1329,288C1366.2,267,1403,213,1422,186.7L1440,160L1440,320L1421.5,320C1403.1,320,1366,320,1329,320C1292.3,320,1255,320,1218,320C1181.5,320,1145,320,1108,320C1070.8,320,1034,320,997,320C960,320,923,320,886,320C849.2,320,812,320,775,320C738.5,320,702,320,665,320C627.7,320,591,320,554,320C516.9,320,480,320,443,320C406.2,320,369,320,332,320C295.4,320,258,320,222,320C184.6,320,148,320,111,320C73.8,320,37,320,18,320L0,320Z"></path></svg>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos minus minima nostrum molestias reprehenderit veritatis, facere in explicabo incidunt deleniti!</p>
+          </div>
+          <div class="col-md-4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos minus minima nostrum molestias reprehenderit veritatis, facere in explicabo incidunt deleniti!</p>
+          </div>
+          <div class="col-md-4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos minus minima nostrum molestias reprehenderit veritatis, facere in explicabo incidunt deleniti!</p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ff916a" fill-opacity="1" d="M0,0L26.7,32C53.3,64,107,128,160,144C213.3,160,267,128,320,138.7C373.3,149,427,203,480,197.3C533.3,192,587,128,640,112C693.3,96,747,128,800,149.3C853.3,171,907,181,960,202.7C1013.3,224,1067,256,1120,266.7C1173.3,277,1227,267,1280,229.3C1333.3,192,1387,128,1413,96L1440,64L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>My Projects</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-3">
+            <div class="card project-tile">
+              <img src="image/tribute-page.png" class="card-img-top" alt="Project 1" />
+              <div class="card-body">
+                <h5 class="card-title">Tribute Page</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, earum perferendis dolores modi deleniti similique.</p>
+                <a href="https://ngegi-git.github.io/fcc-hbenyamins-tribute-page/" target="_blank" class="btn-detail det">Look here &raquo;</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card project-tile">
+              <img src="image/survey-form.png" class="card-img-top" alt="Project 2" />
+              <div class="card-body">
+                <h5 class="card-title">Survey Form</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, earum perferendis dolores modi deleniti similique.</p>
+                <a href="https://ngegi-git.github.io/fcc-hbenyamins-survey-form/" target="_blank" class="btn-detail det">Look here &raquo;</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card project-tile">
+              <img src="image/tech-doc-page.png" class="card-img-top" alt="Project 3" />
+              <div class="card-body">
+                <h5 class="card-title">Technical Documentation Page</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, earum perferendis dolores modi deleniti similique.</p>
+                <a href="https://ngegi-git.github.io/fcc-technical-documentation-page/" target="_blank" class="btn-detail det">Look here &raquo;</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card project-tile">
+              <img src="image/landing-page.png" class="card-img-top" alt="Project 4" />
+              <div class="card-body">
+                <h5 class="card-title">Landing Page</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, earum perferendis dolores modi deleniti similique.</p>
+                <a href="https://ngegi-git.github.io/fcc-landing-page/" target="_blank" class="btn-detail det">Look here &raquo;</a>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,288L48,266.7C96,245,192,203,288,202.7C384,203,480,245,576,250.7C672,256,768,224,864,192C960,160,1056,128,1152,128C1248,128,1344,160,1392,176L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </section>
+    
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Contact</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="fullname" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" name="message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-send">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ff916a" fill-opacity="1" d="M0,0L60,48C120,96,240,192,360,224C480,256,600,224,720,181.3C840,139,960,85,1080,64C1200,43,1320,53,1380,58.7L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+    </section>
+    
+    <footer class="footer text-center text-dark pb-3">
+      <h5>Personal Portfolio <sup><u class="text-light">FCC</u></sup></h5>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
